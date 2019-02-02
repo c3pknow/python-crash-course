@@ -42,10 +42,13 @@ print(fruits_set)
 fruits_set.remove('Grapes')
 print(fruits_set)
 
+## Add duplicate - duplicates not allowed
+fruits_set.add('Mango')
+print(fruits_set)
+
 ## Clear set
 fruits_set.clear()
 print(fruits_set)
-
 
 ## Delete set
 del fruits_set
